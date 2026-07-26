@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800");
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url("fonts.css");
+@import url("reset.css");
+
+
+.about {
+    background-color: #141414;
+    font-family: "Manrope", sans-serif;
+    overflow: hidden;
+    margin-block-end: 20px;
+}
+
+.container {
+    max-width: 1597px;
+    margin-inline: auto;
+    
+}
+
+.about__header {
+    padding-inline-end: 300px;
+    margin-block-end: 80px;
+}
+
+.about__title {
+    margin-bottom: 14px;
+    color: #fff;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.about__text {
+    color: #999;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.about__row {
+    margin-inline: -15px;
+    font-size: 0;
+    
+    
+}   
+
+.about__colmn {
+    display: inline-block;
+    width: 33.333%;
+    padding-inline: 15px;    
+    margin-bottom: 30px;
+    
+}
+
+.item-about {
+    padding: 50px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    background: linear-gradient(222deg,
+            rgba(229, 0, 0, 0.50) -208.03%,
+            rgba(229, 0, 0, 0.00) 41.32%),
+            #0F0F0F;
+}
+
+.item-about__header {
+    padding-block: 18px;
+    margin-bottom: 30px;
+}
+.item-about__icon {
+    display: inline-block;
+    padding: 16px;
+    border: 1px solid #1F1F1F;
+    border-radius: 12px;
+    background-color: #141414;
+    vertical-align: middle;
+    margin-right: 16px;
+    
+}
+
+.item-about__title {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    min-height: 36px;
+    vertical-align: middle;
+    
+}
+
+.item-about__text {
+    color: #999;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.page {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    overflow: hidden;
+   
+}
+
+.page__container {
+    max-width: 539px;
+    margin: 0 auto;
+}
+
+.page__title {
+    color: #091133;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 66px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.page__text {
+    color: #505F98;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 69px;
+}
+
+.page__button {
+    margin-bottom: 50px;
+}
+
+.button-label {
+    display: inline-block;
+    width: 189px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #091133;
+    border: 1px solid #091133;
+   
+}
+
+.button-label--color {
+    background-color: #091133;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.section {
+    background-color: #FBFBFD;
+    font-family: "Roboto",sans-serif;
+    overflow: hidden;
+    
+
+}
+
+.section__container {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.section__header {
+    padding-bottom: 1px;
+    margin-bottom: 70px;
+}
+
+.section__title {
+    color: #091133;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.section__text {
+    color: #6F7CB2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section__body {
+    margin-inline: -15px;
+    /* border: 1px solid blue; */
+    font-size: 0;
+}
+
+.section__column {
+    display: inline-block;
+    width: 245px;
+    padding-inline: 15px;
+    margin-bottom: 30px;
+    /* margin-right: 15px; */
+    /* border: 1px solid red; */
+    box-sizing: content-box;
+}
+
+.card-item {
+    /* margin-inline: -15px; */
+}
+
+.card-item__icon {
+    /* padding-right: 209px; */
+    height: 36px;
+    margin-bottom: 14px;
+}
+
+.card-item__title {
+    color: #091133;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.card-item__text {
+    color: #5D6970;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.frame {
+    font-family: "Epilogue", sans-serif;
+    background-color: #fff;
+}
+
+.frame__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.frame__body {
+    font-size: 0;
+}
+
+.frame__column {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.frame__column--text {
+    max-width: 470px;
+    margin-right: 170px;
+}
+
+.item-text {}
+
+.item-text__label {
+    color: #EF6D58;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.item-text__title {
+    color: #391400;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+    width: 397px;
+    text-transform: capitalize;
+    margin-bottom: 26px;
+}
+
+.item-text__text {
+    color: #391400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 26px;
+}
+
+.item-text__ul-list {}
+
+.ul-list {}
+
+.ul-list__item {
+    background: url("../img/frame/check.svg")    0 0 / 32px no-repeat;
+    color: rgba(57, 20, 0, 0.64);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    min-height: 32px;
+    margin-bottom: 16px;
+    padding-left: 48px;
+    padding-top: 3px;
+}
+
+.frame__column--image {
+    width: 528px;
+    height: 551px;
+    background: url("../img/frame/Bitmap1.png") 138px 25px / 113px 169px no-repeat,
+                url("../img/frame/Mask.png") 102px 10px / 184px no-repeat,
+                url("../img/frame/Bitmap.png") 42px 161px / 480px no-repeat,
+                url("../img/frame/Combined\ Shape.png") 245px 130px / 261px 118px no-repeat,
+                url("../img/frame/Rectangle.png") 0px 235px / 447px 148px no-repeat,
+                url("../img/frame/Path.svg") 0 400px /215px 130px no-repeat,
+                url("../img/frame/Rectangle1.png") 200px 350px / 316px 181px no-repeat;
+}
+.item-image {
+    
+}
+
+.laptop {
+    font-family: "Manrope", sans-serif;
+    background-color: #141414;
+    width: 1450px;
+    margin-inline: auto;
+   
+}
+
+.laptop__image {
+    margin-inline: -5px;
+    font-size: 0;
+    background: url("../img/laptop/Vector.png") 50% / contain no-repeat;
+    
+    
+}
+
+.laptop__column {
+    display: inline-block;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding-inline: 5px;
+    vertical-align: top;
+    
+}
+
+.laptop__body {}
+
+.laptop__container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.laptop__title {
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-block-end: 10px;
+
+}
+
+.laptop__text {
+    color: #999;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.laptop__button {
+    display: block;
+    background-color: #E50000;
+    border-radius: 8px;
+    padding: 14px 24px;
+    width: 209px;
+    margin-inline: auto;
+
+}
+.laptop__button span {
+    display: inline-block;
+    background: url("../img/laptop/Icon.svg") 0 0 / 24px no-repeat;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: capitalize;
+    padding-left: 28px;
+    min-height: 24px;
+}
+.laptop__box {
+    width: 1450px;
+    height: 581px;
+    background: url("../img/laptop/Icon-vector.svg") 50% / 102px no-repeat,
+                url("../img/laptop/Vector.png") center / 300px no-repeat,
+                url("../img/laptop/Fade\ Out\ Top.png") center / 100% no-repeat;
+    
+}
